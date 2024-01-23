@@ -4,7 +4,7 @@ class Student {
 }
 
 public class ArrayOfObjects {
-    public static void main(String[] args) {
+    public static void main(Strings[] args) {
         Student students[] = new Student[2];
 
         // need to create a new student, since the array will only store only references
