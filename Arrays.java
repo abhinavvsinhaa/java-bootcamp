@@ -16,8 +16,8 @@ public class Arrays {
         // Multi Dimensional array
         // int array2D[][] = new int[3][4];
 
-        // Jagged arrays: Multi dimension array, where member arrays can be of different
-        // lengths
+        // Jagged arrays: Multi dimension array, where member arrays can be of
+        // different lengths
         int jagged2DArray[][] = new int[3][];
         jagged2DArray[0] = new int[5];
         jagged2DArray[1] = new int[2];
