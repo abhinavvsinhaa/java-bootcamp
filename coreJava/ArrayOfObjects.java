@@ -1,10 +1,12 @@
+package coreJava;
+
 class Student {
     int roll;
     String name;
 }
 
 public class ArrayOfObjects {
-    public static void main(Strings[] args) {
+    public static void main(String[] args) {
         Student students[] = new Student[2];
 
         // need to create a new student, since the array will only store only references
@@ -19,8 +21,7 @@ public class ArrayOfObjects {
         students[1] = s2;
 
         for (Student s : students) {
-            System.out.println("roll: " + s.roll);
-            System.out.println("name: " + s.name);
+            System.out.println(s.name + ": " + s.roll);
         }
     }
 
