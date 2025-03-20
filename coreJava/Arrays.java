@@ -11,5 +11,15 @@ public class Arrays {
         for (int i = 0; i < numbers.length; i++) {
             System.out.println(numbers[i]);
         }
+
+        // 2D array
+        int twoDArray[][] = new int[3][4];
+        for (int i = 0; i < twoDArray.length; i++) {
+            for (int j = 0; j < twoDArray[i].length; j++) {
+                twoDArray[i][j] = (int) (Math.random() * 100); // Math.random() returns double value between 0.0 & 1.0
+                System.out.print(twoDArray[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
 }
